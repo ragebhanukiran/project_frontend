@@ -43,39 +43,6 @@ const recomendedPlaylistCardData = [{          title : "This is the one",
       imgUrl :"https://imgs.search.brave.com/zissE6i2fSum93MpaHLue7CTH4UOnimFy1KngZtJkxY/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/cHJlbWl1bS1waG90/by9jZWxlYnJhdGUt/d29ybGQtbXVzaWMt/ZGF5LXdpdGgtZ2xv/YmFsLWluc3RydW1l/bnRzXzg3NTgyNS01/NzE4Ny5qcGc_c2l6/ZT02MjYmZXh0PWpw/Zw"
   }]
 
-const recomendedPlaylistCardData = [
-  {
-    title: "This is one",
-    description: "Relax and indulge with beautiful piano pieces",
-    imgUrl:
-      "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1546&q=80",
-  },
-  {
-    title: "Deep Focus",
-    description: "Keep calm and focus with this music",
-    imgUrl:
-      "https://images.unsplash.com/photo-1558021212-51b6ecfa0db9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1766&q=80",
-  },
-  {
-    title: "Instrumental Study",
-    description: "Focus with soft study music in the background.",
-    imgUrl:
-      "https://images.unsplash.com/photo-1612225330812-01a9c6b355ec?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80",
-  },
-  {
-    title: "Focus Flow",
-    description: "Up tempo instrumental hip hop beats",
-    imgUrl:
-      "https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80",
-  },
-  {
-    title: "Beats to think ",
-    description: "Focus with deep techno and tech house",
-    imgUrl:
-      "https://images.unsplash.com/photo-1511379938547-c1f69419868d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80",
-  },
-];
-
 const Home = () => {
   return (
     <LoggedInContainer curActiveScreen="home">
