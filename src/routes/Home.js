@@ -42,24 +42,48 @@ const recomendedPlaylistCardData = [{          title : "This is the one",
 
 const Home = () => {
   return (
-    <div className="vh-100 w-25 bg-black">
-    <div className="fw-bold m-3 p-3 fs-1 text-white rounded-pill d-flex justify-content-start font-sans-serif">
-      RythymiQ
-    </div>
-    <div>
-      <IconText iconName={"teenyicons:home-solid"} displayText={"Home"} />
-      <IconText iconName={"bi:search"} displayText={"Search"} />
-      <div>
-        <IconText
-          iconName={"basil:add-outline"}
-          displayText={"Create Playlist"}
-        />
-        <IconText
-        iconName={"uploadSong"}
-        diaplayText = {"Upload Song"}/>
-        <IconText iconName={"ph:heart-fill"} displayText={"Liked Songs"} />
-      </div>
-    </div>
+    <div className="vh-100 vw-100 bg-black d-flex">
+            {/* Left panel */}
+        <div className="vh-100  bg-black" style={{width:"24%"}}>
+          <div className="fw-bold m-3 p-3 fs-1 bg-white rounded-pill d-flex justify-content-center font-sans-serif">
+            RythymiQ
+          </div>
+          <div >
+            <IconText
+              iconName={"teenyicons:home-solid"}
+              displayText={"Home"}
+              targetLink={"/home"}
+              
+            />
+            <IconText
+              iconName={"bi:search"}
+              displayText={"Search"}
+              targetLink={"/search"}
+            />
+
+            <div>
+              <IconText
+                iconName={"solar:library-line-duotone"}
+                displayText={"Create Playlist"}
+              />
+              <IconText
+                iconName={"material-symbols:library-music-sharp"}
+                displayText={"My Music"}
+                targetLink="/myMusic"
+              />
+              <IconText
+                iconName={"material-symbols:library-music-sharp"}
+                displayText={"Upload Song"}
+                targetLink={"/uploadSong"}
+                className="text-decoration-none"
+              />
+              <IconText
+                iconName={"ph:heart-fill"}
+                displayText={"Liked Songs"}
+              />
+            </div>
+          </div>
+        </div>
 
 
       {/* this will bw my right div */}
