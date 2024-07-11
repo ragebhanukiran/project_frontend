@@ -49,7 +49,7 @@ const Home = () => {
       <PlaylistView titleText="Focus" cardsData={focusCardsData} />
       <PlaylistView
         titleText="Recomended Playlists"
-        cardsData={recomendedPlaylistsCardData}
+        cardsData={recomendedPlaylistCardData}
       />
       <PlaylistView titleText="Sound of India" cardsData={focusCardsData} />
     </LoggedInContainer>
